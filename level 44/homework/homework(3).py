@@ -1,9 +1,8 @@
 def get_middle(s):
     n = len(s)
-    mid = n // 2
-    if n % 2:
-        return s[mid]
+    middle = n // 2
+    if n%2==0:
+        return s[middle]
     else:
-        return s[mid-1:mid+1]
-
+        return s[middle-1:middle+1]
     
